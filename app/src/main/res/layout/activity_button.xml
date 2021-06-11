@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ButtonActivity">
+
+    <Button
+        android:id="@+id/videoFour"
+        android:layout_width="336dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="20dp"
+        android:text="Beer"
+        app:layout_constraintEnd_toEndOf="@+id/videoThree"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="@+id/videoThree"
+        app:layout_constraintTop_toBottomOf="@+id/videoThree" />
+
+    <Button
+        android:id="@+id/videoThree"
+        android:layout_width="336dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="20dp"
+        android:text="Three"
+        app:layout_constraintEnd_toEndOf="@+id/videoTwo"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="@+id/videoTwo"
+        app:layout_constraintTop_toBottomOf="@+id/videoTwo"
+        tools:text="Do you wanna sonwman" />
+
+    <Button
+        android:id="@+id/videoTwo"
+        android:layout_width="336dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="20dp"
+        android:text="Let it go"
+        app:layout_constraintEnd_toEndOf="@+id/videoOne"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="@+id/videoOne"
+        app:layout_constraintTop_toBottomOf="@+id/videoOne" />
+
+    <Button
+        android:id="@+id/videoOne"
+        android:layout_width="336dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="120dp"
+        android:text="Into the unknown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
