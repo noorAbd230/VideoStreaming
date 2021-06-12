@@ -15,7 +15,7 @@ import javax.sql.DataSource
 
 class MainActivity : AppCompatActivity() {
      var player : SimpleExoPlayer ?= null
-    var url : String ? = null
+    lateinit var url : String
     var playWhenReady = true
     var currentWindow = 0
     var playBackPosition:Long = 0
@@ -26,16 +26,16 @@ class MainActivity : AppCompatActivity() {
         var video = intent.getStringExtra("video")
         when (video) {
             "one" -> {
-                url = intent.getStringExtra("urlOne")
+                url = intent.getStringExtra("urlOne")!!
             }
             "two" -> {
-                url = intent.getStringExtra("urlTwo")
+                url = intent.getStringExtra("urlTwo")!!
             }
             "three" -> {
-                url = intent.getStringExtra("urlThree")
+                url = intent.getStringExtra("urlThree")!!
             }
             "four" -> {
-                url = intent.getStringExtra("urlFour")
+                url = intent.getStringExtra("urlFour")!!
             }
             else -> {
                 print("not found")
