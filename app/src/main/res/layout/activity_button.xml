@@ -22,12 +22,11 @@
         android:layout_width="336dp"
         android:layout_height="69dp"
         android:layout_marginTop="20dp"
-        android:text="Three"
+        android:text="Do you wanna sonwman"
         app:layout_constraintEnd_toEndOf="@+id/videoTwo"
         app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="@+id/videoTwo"
-        app:layout_constraintTop_toBottomOf="@+id/videoTwo"
-        tools:text="Do you wanna sonwman" />
+        app:layout_constraintTop_toBottomOf="@+id/videoTwo" />
 
     <Button
         android:id="@+id/videoTwo"
